@@ -109,7 +109,7 @@ $.get("https://restcountries.eu/rest/v2/name/" + country, function(data, status)
 
 //clicking Border countries
 $(document).on("click", ".border-buttons", function(event) {
-  $.get("https://restcountries.eu/rest/v2/alpha/" + event.currentTarget.innerText, function(data, status) {
+  $.get("https://restcountries.eu/rest/v2/alpha/" + this.innerText, function(data, status) {
     console.log(status);
 
 

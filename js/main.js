@@ -3,9 +3,10 @@ let countryData;
 
 //dropdown menu search
 $(".dropdown-item").click(function(event){
+  clickedItem = this;
   const matchingCountriesArray = [];
   countryData.forEach(function(country){
-    if(country.region == event.currentTarget.text){
+    if(country.region == clickedItem.text){
       matchingCountriesArray.push(country);
     }
   });
@@ -41,7 +42,7 @@ $(document).on("click",".card", function(event){
    }else{
      mode = "dark";
    }
-  const clickedCountryData= event.currentTarget.innerText;
+  const clickedCountryData= this.innerText;
   const clickedCountryName = clickedCountryData.split("\n")[0];
   const queryString = "?country="+clickedCountryName+"&mode="+mode;
   window.location.href="detail.html"+queryString;
