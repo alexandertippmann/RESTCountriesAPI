@@ -1,0 +1,28 @@
+body {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.navbar {
+  background-color: white;
+  box-shadow: 0 -4px 1px 6px hsl(0, 0%, 90%);
+}
+
+.searchbox {
+  background-color: white;
+  box-shadow: -1px 1px 1px 1px hsl(0, 0%, 90%);
+}
+
+.search-button {
+  background-color: inherit;
+  border-style: none;
+  color: hsl(0, 0%, 52%);
+}
+
+.dropdown {
+    background-color: white;
+        box-shadow: -1px 1px 1px 1px hsl(0, 0%, 90%);
+}
+
+.card {
+box-shadow: -1px 1px 1px 1px hsl(0, 0%, 90%);
+}

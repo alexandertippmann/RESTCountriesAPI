@@ -1,0 +1,78 @@
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.secondary-bar-wrapper {
+  margin: 0 1rem;
+  position: relative;
+  height: inherit;
+}
+
+.searchbox {
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 3%;
+  padding: 1%;
+}
+
+.search-field {
+  border-style: none;
+  padding-right: 5rem;
+}
+
+.btn{
+  padding: 0 0.75rem;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  right:0;
+    margin-top: 3%;
+      border-radius: 10px;
+      padding: 1%;
+}
+
+.main-content{
+  margin-top: 1% ;
+}
+
+.card {
+margin: 8% 10%;
+text-align: left;
+}
+
+.card h5 {
+  font-weight: 800;
+}
+
+.h1 {
+  font-weight: 800;
+  padding: 10px 0;
+}
+
+h2 {
+  font-weight: 800;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.flag-wrapper{
+  margin: 10%;
+}
+
+.data-wrapper{
+  margin-top: 10%;
+}
+
+.table-row{
+  margin-top: 5%;
+  line-height: 1rem;
+}
+.bordering{
+  margin-top: 10%;
+}

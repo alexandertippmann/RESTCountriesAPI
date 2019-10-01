@@ -1,0 +1,48 @@
+body {
+  background-color: hsl(207, 26%, 17%);
+  color:white;
+}
+
+.navbar {
+  background-color:  hsl(209, 23%, 22%);
+  box-shadow: 0 -4px 1px 6px hsl(207, 26%, 15%);
+}
+
+.searchbox {
+  background-color:  hsl(209, 23%, 22%);
+  box-shadow: -1px 1px 1px 1px hsl(207, 26%, 15%);
+}
+
+.search-button {
+  background-color: inherit;
+  border-style: none;
+    color: white;
+}
+
+.search-field{
+  background-color: hsl(209, 23%, 22%);
+  color:white;
+}
+
+.dropdown {
+    background-color:  hsl(209, 23%, 22%);
+        box-shadow: -1px 1px 1px 1px hsl(207, 26%, 15%);
+
+}
+
+.dropdown-menu{
+  background-color:  hsl(209, 23%, 22%);
+  color: white;
+}
+
+.dropdown-item{
+  color:white;
+}
+.btn{
+  color: white;
+}
+
+.card {
+box-shadow: -1px 1px 1px 1px hsl(207, 26%, 15%);
+background-color: hsl(209, 23%, 22%);
+}
