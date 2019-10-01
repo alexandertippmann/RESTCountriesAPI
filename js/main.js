@@ -43,7 +43,10 @@ $(document).on("click",".card", function(event){
      mode = "dark";
    }
   const clickedCountryData= this.innerText;
-  const clickedCountryName = clickedCountryData.split("\n")[0];
+  let clickedCountryName = clickedCountryData.split("\n")[0];
+  if(clickedCountryName == ""){
+    clickedCountryName = clickedCountryData.split("\n")[1];
+  }
   const queryString = "?country="+clickedCountryName+"&mode="+mode;
   window.location.href="detail.html"+queryString;
 
